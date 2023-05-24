@@ -1,0 +1,13 @@
+def sort(s):
+    n=s
+    a=list()
+    for i in range (n):
+        no=int(input("Enter number: "))
+        a.append(no)
+    for i in range(n):
+        for j in range(n-i-1):
+            if a[j] > a[j + 1]:
+                a[j],a[j+1]=a[j+1],a[j]
+    print("Sorted list:", a)
+size=int(input("Enter array size: "))
+sort(size)
