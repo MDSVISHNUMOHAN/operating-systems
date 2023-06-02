@@ -1,0 +1,5 @@
+Quantum=1
+Process      CPU BURST
+P1                      1
+P2                      3
+P3                      4
